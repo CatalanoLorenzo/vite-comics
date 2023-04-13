@@ -8,25 +8,46 @@
 }
 
 header {
-    height: 118px;
+
+
+    a {
+        &:hover {
+            color: $text-header;
+            border-bottom: 2px solid $text-header;
+        }
+    }
 }
 
 main {
+    background-color: $bg-contnent;
+
     section {
         height: 132px;
+        color: white;
     }
 
-    nav {
-        height: 155px;
-    }
 }
 
 footer {
-    nav {
-        height: 370px;
-    }
+    .top {
+        background-color: $bg-bottomNav;
 
-    section {
-        height: 110px;
+        .shop {
+          img{
+                width: 55px;
+            }
+        }
+
+        
+
+    }
+    .center{
+        background-image: url(../img/footer-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        
+    }
+    .bottom {
+        background-color: $bg-footer;
     }
 }
