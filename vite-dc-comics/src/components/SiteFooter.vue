@@ -24,7 +24,7 @@ export default {
                                 <div class="py-3" v-for=" element in shopMenu">
                                     <a class="navbar-brand" :href="element.href">
                                         <img class="m-2" :src="element.src" alt="element.text">
-                                        <span>{{element.text}}</span>
+                                        <span class="text-white">{{element.text}}</span>
                                     </a>
                                 </div>
                             </div>
@@ -33,14 +33,14 @@ export default {
                 </div>
             </div>
         </section>
-
-        <section class="center p-3">
-            <div class="container">
+        <section class="center p-3 position-relative">
+            <img src="../assets/img/dc-logo-bg.png" alt="" class=" position-absolute">
+            <div class="container ">
                 <div class="row">
                     <div class="col">
-                        <nav class="navbar navbar-expand-sm contacts">
-                            <div class="container-fluid p-0">
-                                <section class="py-1 d-flex flex-column h-100" v-for="element in about">
+                        <nav class=" contacts position-relative">
+                            <div class="container-fluid p-0 flex-row d-flex justify-content-around">
+                                <section class="py-1 d-flex flex-column h-100 justify-content-end" v-for="element in about">
                                     <h4 class="text-white">{{element.title}}</h4>
                                     <ul class="px-0 list-unstyled">
                                         <li v-for="(,index) in element.link">
@@ -54,8 +54,7 @@ export default {
                 </div>
             </div>
         </section>
-
-        <section class="bottom py-1">
+        <section class="bottom py-1 position-relative">
             <div class="container py-2">
                 <div class="row justify-content-between py-4">
                     <div class="col">
@@ -74,6 +73,5 @@ export default {
             </div>
 
         </section>
-
     </footer>
 </template>

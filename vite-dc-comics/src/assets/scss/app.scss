@@ -11,6 +11,9 @@ header {
 
 
     a {
+        
+        margin-bottom: -4px;
+        
         &:hover {
             color: $text-header;
             border-bottom: 2px solid $text-header;
@@ -20,7 +23,7 @@ header {
 
 main {
     background-color: $bg-contnent;
-
+    z-index: 3;
     section {
         height: 132px;
         color: white;
@@ -31,7 +34,7 @@ main {
 footer {
     .top {
         background-color: $bg-bottomNav;
-
+        z-index: 1;
         .shop {
           img{
                 width: 55px;
@@ -45,9 +48,19 @@ footer {
         background-image: url(../img/footer-bg.jpg);
         background-position: center;
         background-size: cover;
-        
+        z-index: -2;
+        contacts{
+            z-index: 3;
+        }
+        img{
+            z-index: 0;
+            left: calc(50% - 280px);
+            bottom: -34%;
+            object-fit: cover;
+        }
     }
     .bottom {
         background-color: $bg-footer;
+        z-index: 2;
     }
 }

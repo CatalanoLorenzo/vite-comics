@@ -4,7 +4,7 @@ export default {
 }
 </script>
 <template>
-    <main>
+    <main class="position-relative">
         <div class="container">
             <div class="row flex-column">
                 <div class="col">
