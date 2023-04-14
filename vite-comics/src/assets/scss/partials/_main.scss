@@ -22,7 +22,6 @@ main {
         }
         .cards{
             background-color: $bg-contnent;
-
             .cover{
                 width: 100%;
                 aspect-ratio: 1/1;
@@ -31,7 +30,6 @@ main {
                     aspect-ratio: auto;
                 }
             }
-
         }
         .load_more{
             background-color: $bg-bottomNav ;

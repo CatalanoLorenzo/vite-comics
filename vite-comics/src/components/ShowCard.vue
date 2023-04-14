@@ -1,7 +1,6 @@
 <script>
 import DcComics from "../data/dc-comics.json";
 import CardComic from "./CardComic.vue";
-
 export default {
     name:'ShowCard',
     components:{
