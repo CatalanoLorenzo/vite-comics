@@ -1,0 +1,21 @@
+@use './variables' as *;
+footer {
+    .top {
+        background-color: $bg-bottomNav;
+
+        .shop {
+            img {
+                width: 55px;
+            }
+        }
+    }
+    .center {
+        background-image: url(/src/assets/img/dc-logo-bg.png), url(/src/assets/img/footer-bg.jpg);
+        background-position: 80%, center;
+        background-size: auto, cover;
+        background-repeat: no-repeat;
+    }
+    .bottom {
+        background-color: $bg-footer;
+    }
+}
