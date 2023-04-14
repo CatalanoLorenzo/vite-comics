@@ -1,11 +1,12 @@
 @use './variables' as *;
 header {
     a {
-        margin-bottom: -4px;
+        margin-bottom: 2px;
 
         &:hover {
             color: $text-header;
             border-bottom: 2px solid $text-header;
+            margin-bottom: 0px;
         }
     }
 }
