@@ -1,17 +1,17 @@
 export default [
     {
-        src: 'src/assets/img/footer-facebook.png',
+        src: 'footer-facebook',
     },
     {
-        src: 'src/assets/img/footer-twitter.png',
+        src: 'footer-twitter',
     },
     {
-        src: 'src/assets/img/footer-youtube.png',
+        src: 'footer-youtube',
     },
     {
-        src: 'src/assets/img/footer-pinterest.png',
+        src: 'footer-pinterest',
     },
     {
-        src: 'src/assets/img/footer-periscope.png',
+        src: 'footer-periscope',
     },
 ]

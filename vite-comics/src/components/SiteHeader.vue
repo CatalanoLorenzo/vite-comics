@@ -1,21 +1,18 @@
 <script>
-import headerMenu from "../data/headerMenu.js"
 import logo from "../components/Logo.vue"
+import NavHeader from './NavHeader.vue'
 export default {
     name: 'SiteHeader',
     components:{
-        logo
+        logo,
+        NavHeader,
     },
     data() {
         return {
-            listheaderMenu:headerMenu,
-
         }
-    },
-    
+    }, 
 }
 </script>
-
 <template>
     <header>
         <div class="container">
@@ -24,11 +21,7 @@ export default {
                     <logo></logo>
                 </div>
                 <div class="col ">
-                    <nav class="navbar navbar-expand-sm navbar-light py-0">
-                        <div class="container-fluid">
-                            <a class="py-5 h-100 px-1 text-decoration-none text-black p-1" :href="element.title" v-for="element in listheaderMenu">{{element.title}}</a>
-                        </div>
-                    </nav>
+                    <NavHeader></NavHeader>
                 </div>
             </div>
         </div>

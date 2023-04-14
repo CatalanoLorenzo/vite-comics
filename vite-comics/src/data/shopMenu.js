@@ -1,26 +1,26 @@
 export default [
 {
-    src:'/src/assets/img/buy-comics-digital-comics.png',
+    src:'buy-comics-digital-comics',
     text:'DIGITAL COMICS',
     href:'DIGITAL-COMICS'
 },
 {
-    src:'/src/assets/img/buy-comics-merchandise.png',
+    src:'buy-comics-merchandise',
     text:'DC MERCHANDISE',
     href:'DC-MERCHANDISE'
 },
 {
-    src:'/src/assets/img/buy-comics-subscriptions.png',
+    src:'buy-comics-subscriptions',
     text:'SUBSCRIPTION',
     href:'SUBSCRIPTION'
 },
 {
-    src:'/src/assets/img/buy-comics-shop-locator.png',
+    src:'buy-comics-shop-locator',
     text:'COMIC SHOP LOCATOR',
     href:'COMIC-SHOP-LOCATOR'
 },
 {
-    src:'/src/assets/img/buy-dc-power-visa.svg',
+    src:'buy-dc-power-visa',
     text:'DC POWER VISA',
     href:'DC-POWER-VISA'
 },
