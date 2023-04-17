@@ -23,5 +23,3 @@ export default {
   <SiteFooter></SiteFooter>
   
 </template>
-
-<style lang="scss"></style>
